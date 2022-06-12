@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="SELAMAT"
+        android:textSize="40dp"
+        android:textColor="#151111"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="LOGIN BERHASIL"
+        android:textSize="40dp"
+        android:textColor="#151111"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:text="Email Anda adalah "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#151111"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp" />
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="115dp"
+        android:background="#2F5BB6"
+        android:text="LOGOUT"
+        android:textSize="20sp" />
+
+</LinearLayout>
